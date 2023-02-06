@@ -5,13 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="120241f7-7297-4250-b6ed-aa9dca1abb23" name="变更" comment="修改CVE-2022-2301">
+      <change afterPath="$PROJECT_DIR$/CVE-2022-3224/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CVE-2022-3224/poc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CVE-2022-3224/start.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CVE-2022-2301/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/CVE-2022-2301/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -28,6 +37,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "javascript.nodejs.core.library.configured.version": "12.22.12",
+    "javascript.nodejs.core.library.typings.version": "12.20.55",
     "last_opened_file_path": "/Users/zhouzhuotong/work/poc/CVE-2022-2301",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -55,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675671199526</updated>
-      <workItem from="1675671200562" duration="8234000" />
+      <workItem from="1675671200562" duration="10351000" />
     </task>
     <task id="LOCAL-00001" summary="init poc project">
       <created>1675671278534</created>
@@ -120,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675684446327</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="修改CVE-2022-2301">
+      <created>1675685898165</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1675685898165</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
