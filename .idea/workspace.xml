@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="120241f7-7297-4250-b6ed-aa9dca1abb23" name="变更" comment="增加CVE-2022-2301">
+    <list default="true" id="120241f7-7297-4250-b6ed-aa9dca1abb23" name="变更" comment="修改CVE-2022-2301">
+      <change afterPath="$PROJECT_DIR$/CVE-2022-2301/1.10.0.tar.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CVE-2022-2301/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/CVE-2022-2301/Dockerfile" afterDir="false" />
     </list>
@@ -24,6 +25,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -54,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675671199526</updated>
-      <workItem from="1675671200562" duration="1622000" />
+      <workItem from="1675671200562" duration="3502000" />
     </task>
     <task id="LOCAL-00001" summary="init poc project">
       <created>1675671278534</created>
@@ -70,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675672096070</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="修改CVE-2022-2301">
+      <created>1675672837881</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675672837881</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,6 +88,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init poc project" />
     <MESSAGE value="增加CVE-2022-2301" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加CVE-2022-2301" />
+    <MESSAGE value="修改CVE-2022-2301" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改CVE-2022-2301" />
   </component>
 </project>
