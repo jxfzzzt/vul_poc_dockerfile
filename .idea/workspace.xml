@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="120241f7-7297-4250-b6ed-aa9dca1abb23" name="变更" comment="新增CVE-2022-3224">
-      <change beforePath="$PROJECT_DIR$/CVE-2022-3224/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/CVE-2022-3224/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CVE-2021-3878/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CVE-2021-3878/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CVE-2021-3878/poc_files/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CVE-2021-3878/poc_files/src/libs/stanford-corenlp-4.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CVE-2021-3878/poc_files/src/poc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CVE-2021-3878/start.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CVE-2022-3224/install.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/poc.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,30 +36,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "javascript.nodejs.core.library.configured.version": "12.22.12",
-    "javascript.nodejs.core.library.typings.version": "12.20.55",
-    "last_opened_file_path": "/Users/zhouzhuotong/work/poc/CVE-2022-2301",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;12.22.12&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;12.20.55&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/zhouzhuotong/work/poc&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/新建临时文件": [
-      "GitIgnore"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/新建临时文件&quot;: [
+      &quot;GitIgnore&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CVE-2021-3878" />
       <recent name="$PROJECT_DIR$/CVE-2022-2301" />
     </key>
   </component>
@@ -63,7 +72,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675671199526</updated>
-      <workItem from="1675671200562" duration="11107000" />
+      <workItem from="1675671200562" duration="16405000" />
+      <workItem from="1675698629562" duration="491000" />
+      <workItem from="1675699254496" duration="3159000" />
     </task>
     <task id="LOCAL-00001" summary="init poc project">
       <created>1675671278534</created>
@@ -156,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675689768111</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="新增CVE-2022-3224">
+      <created>1675689943001</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1675689943001</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
