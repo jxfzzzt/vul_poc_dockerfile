@@ -17,12 +17,29 @@ using namespace ::container_service;
 
 class ContainerHandler : virtual public ContainerIf {
 public:
+    stack<int> stk;
+
     ContainerHandler() {
         // Your initialization goes here
+        for(int i = 20000; i <= 65535 ; i ++ ) {
+            stk.push(i);
+        }
     }
 
     int32_t open_container(const Req &req, const std::string &info) {
-        // Your implementation goes here
+        string cveName = req.cveName;
+        int64_t uid = req.uid;
+
+        // transfer cveName to docker image name
+        string dockerName = cveName;
+        for(int i = 0 ; i < dockerName.size() ; i ++ ) {
+            if(dockerName[i] >= 'A' && dockerName[i] <= 'Z') {
+                dockerName[i] = tolower(dockerName[i]);
+            }
+        }
+        // 对s
+        dockerName += "-poc";
+        string dockerRunCmd = "docker run -p 20000:22 -itd --name CVE-2022-3224-POC cve-2022-3224-poc";
         system("");
         printf("open_container\n");
     }
@@ -31,7 +48,6 @@ public:
         // Your implementation goes here
         printf("close_container\n");
     }
-
 };
 
 int main(int argc, char **argv) {
